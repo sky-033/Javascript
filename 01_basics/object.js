@@ -17,3 +17,14 @@ JsUser.greeting=function(){
 }
 
 console.log(JsUser.greeting())
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+const {coursename,price,courseInstructor} = course
+
+console.log(price);
